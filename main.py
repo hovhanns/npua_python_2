@@ -1,6 +1,10 @@
-print("hello world")
+a = 10
 
-print("hello world !!")
+if a>10:
+    print("higher 10")
+    print("higher 10")
+    print("higher 10")
 
-
-print("hello world !!")
+else:
+    
+    print("lower 10")
