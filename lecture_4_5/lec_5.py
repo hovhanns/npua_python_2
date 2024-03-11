@@ -10,8 +10,8 @@ greet("Kate")
 def greet(*names):
     for name in names:
         print("Hello", name)
-
-greet("Monica", "Luke", "Steve", "John")
+a, b, c, d = "Monica", "Luke", "Steve", "John"
+greet(a, b, c, d)
 
 
 # def  function with kwargs
