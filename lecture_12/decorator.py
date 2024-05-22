@@ -35,7 +35,6 @@ def do_twice(func):
         func()
     return wrapper_do_twice
 
-
 # def do_twice_args(func):
 #     @functools.wraps(func)
 #     def wrapper_do_twice(*args, **kwargs):
